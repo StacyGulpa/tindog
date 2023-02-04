@@ -1,0 +1,212 @@
+/* section id="title" */
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.downl-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/*  <section id="features">*/
+
+
+.fa-circle-check {
+  color: #ef8172;
+  font-size: 50px;
+  margin: 7%;
+  padding-top: 30px;
+
+}
+
+.fa-bullseye {
+  color: #ef8172;
+  font-size: 50px;
+  margin: 7%;
+  padding-top: 30px;
+
+}
+
+.fa-heart {
+  color: #ef8172;
+  font-size: 50px;
+  margin: 7%;
+  padding-top: 30px;
+
+}
+
+.fa-circle-check:hover {
+  color: #ff4c68;
+  font-size: 50px;
+  margin: 7%;
+}
+
+.fa-bullseye:hover {
+  color: #ff4c68;
+  font-size: 50px;
+  margin: 7%;
+}
+
+.fa-heart:hover {
+  color: #ff4c68;
+  font-size: 50px;
+  margin: 7%;
+}
+
+h3 {
+  font-size: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.small-p {
+  color: rgb(97, 97, 97);
+}
+
+#features {
+  background-color: white;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+/*<section id="testimonials">*/
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding: 2% 7%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+.card {
+  margin: 1%;
+}
+
+.card-header {
+  margin: 30px;
+}
+
+.btn-sign-up {
+  background-color: #ff4c68;
+  padding-top: 7px;
+  border-color: #ff4c68;
+
+}
+
+.in-pricing {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#pricing {
+  margin-top: 50px;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .image-footer {
+    text-align: center;
+  }
+}
+
+/*Call for action*/
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 70px;
+}
+
+.footer-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+/*Footer*/
+#footer {
+  background-color: white;
+}
+
+.image-footer {
+  padding: 20px;
+  font-size: 20px;
+}
